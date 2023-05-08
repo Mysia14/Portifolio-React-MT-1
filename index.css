@@ -1,0 +1,21 @@
+body{
+    background-color:#130219 ;
+    color: #e84582;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.navbar{
+    background-color: #d60e57d5;
+    color: aliceblue;
+}
+header{
+    display: grid;
+    grid-template-columns: max-content
+    ;
+    color: aliceblue;
+    
+}
+img{
+    display: flex;
+
+}
