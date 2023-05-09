@@ -3,15 +3,14 @@ body{
     color: #ece5e8;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
+    padding-left: 60px;
 }
 .navbar {
-    background-color: #b50ed6d5;
-    max-width:100%;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    mask-image:repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-    margin: 0 auto;
+    mask-image:repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 10%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    
     
     
 }
@@ -48,20 +47,24 @@ nav ul a:hover {
 header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items:end;
     color: aliceblue;
     
 }
 .header-img{
-    padding: 400px 100px 200px 400px;
+    padding: 300px 100px 200px 70px;
     position:relative;
     justify-content: center;
-   
+
 }
 .photo{
     width: 600px;
     height: 600px;
     border-radius: 400px 400px;
     background-color: rgba(21, 24, 35, 0.7);
+}
+.who-am-I{
+    font-size: 40px;
+    display: ;
 }
