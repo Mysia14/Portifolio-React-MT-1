@@ -1,21 +1,67 @@
 body{
-    background-color:#130219 ;
-    color: #e84582;
+    background-color:#1e012c ;
+    color: #ece5e8;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
-.navbar{
-    background-color: #d60e57d5;
-    color: aliceblue;
+.navbar {
+    background-color: #b50ed6d5;
+    max-width:100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    mask-image:repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    
+    
+}
+ul.nav-links{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    font-family: "Montserrat", "Helvetica Neue",;
+    text-transform:uppercase;
+    color:whitesmoke;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    
+} 
+
+nav ul {
+    text-align: right;
+    width:100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(153, 4, 212, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(96, 33, 197, 0.6);
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(235, 119, 219, 0.7);
 }
 header{
-    display: grid;
-    grid-template-columns: max-content
-    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:end;
     color: aliceblue;
     
 }
-img{
-    display: flex;
-
+.header-img{
+    padding: 400px 100px 200px 400px;
+    position:relative;
+    justify-content: center;
+   
+}
+.photo{
+    width: 600px;
+    height: 600px;
+    border-radius: 400px 400px;
 }
