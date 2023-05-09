@@ -1,8 +1,8 @@
 body{
-    background-color:#1e012c ;
+    background: linear-gradient(45deg, #042461 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #340447 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #0f053a 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #050813 100%, rgba(9, 245, 5, 0) 70%);
     color: #ece5e8;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
 }
 .navbar {
     background-color: #b50ed6d5;
@@ -20,9 +20,8 @@ ul.nav-links{
     display: flex;
     padding: 8px;
     font-family: "Montserrat", "Helvetica Neue",;
-    text-transform:uppercase;
     color:whitesmoke;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     justify-content: space-evenly;
     
@@ -64,4 +63,5 @@ header{
     width: 600px;
     height: 600px;
     border-radius: 400px 400px;
+    background-color: rgba(21, 24, 35, 0.7);
 }
